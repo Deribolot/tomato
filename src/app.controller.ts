@@ -10,5 +10,4 @@ export class AppController {
   getApp(@Req() request: ClientRequest, @Res() response: ServerResponse): ServerResponse {
     return this.appService.getApp(request,response);
   }
-
 }
